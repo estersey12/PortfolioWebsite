@@ -6,7 +6,8 @@
   <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-       
+       //add google analytics
+    
         <title>Emmanuelle Esters</title>
 
         <link href="css/site.css" rel="stylesheet">
@@ -14,65 +15,121 @@
   </head>
 
   <body>
-    <div class="nav-bar">
-        <a class="active" href="#home">Home</a>
+    <div class="nav-bar"> //make static on top
+        <a href class="active" href="#log">Logo</a> //make logo home button
         <a href="#about-me">About</a>
+        <a href="#course_work">Course Work</a>
         <a href="#CS-portfolio">Computer Science</a>
         <a href="#Art-portfolio">Visual Art</a>
         <a href="#Contact-page">Contact</a>
         <a href="#Resume-page">Resume</a>
     </div>
-
+    
+    <div class="social_links"> //add links & icons & make static on left side
+      <ul>
+        <li>Github</li>
+        <li>LinkedIn</li>
+        <li>Instagram</li>
+      </ul>
+    </div>
+    
     <div class = "content">
 
       <div class = "home-page">
-        <h1>Emmanuelle Esters</h1>
+        <p class="accent">Hi, my name is</p>
+        <h1 class="highlight">Emmanuelle Esters</h1>
+        <h1>Sed dignissim pharetra auctor.</h1>       //I create...
         <p> 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.    //small summary
           Pellentesque pretium mi sit amet mauris scelerisque ultricies. 
           Quisque ultricies tincidunt elit, vel feugiat justo placerat a.  
           Sed dignissim pharetra auctor.
         </p>
-        
+        //button to contact form
       </div>
 
       <div class = "about-me">
-        <h3>About Me</h3>
+        <h3>About Me</h3> 
+        <img > //my headshot
+              //include school, major, expected grad date, and interests
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin tempus luctus nulla vel placerat. Suspendisse imperdiet elit at dui ultrices,
           pulvinar elementum ligula vulputate. Sed mattis condimentum hendrerit. 
           Nullam velit dolor, lobortis eget lorem ut, maximus dignissim nisl. 
           Sed hendrerit porta vulputate. Maecenas sodales lectus in convallis dignissim. 
-          Praesent eget lorem et velit semper porttitor et eu mi. </p>
-      </div>
-
-      <div class = "CS-portfolio">
-        <h3>Coding Porfolio</h3>
-        <ul>
-          <li> Project 1 </li>
-          <li> Project 2 </li>
-          <li> Project 3 </li>
+          Praesent eget lorem et velit semper porttitor et eu mi. 
+        </p>
+        <ul>  //list of skills & technologies   //add skill levels later
+          <li>Skill #1</li>
+          <li>Skill #2</li>
+          <li>Skill #3</li>
+          <li>Skill #4</li>
+          <li>Skill #5</li>
+          <li>Skill #6</li>
+          <li>Skill #7</li>
+          <li>Skill #8</li>
         </ul>
       </div>
+      
+      <div class = "coursework">
+        <h3>Coursework</h3> 
+          <ul>
+            <li>Course #1</li>
+            <li>Course #2</li>
+            <li>Course #3</li>
+            <li>Course #4</li>
+            <li>Course #5</li>
+            <li>Course #6</li>
+            <li>Course #7</li>
+            <li>Course #8</li>
+            <li>Course #9</li>
+            <li>Course #10</li>
+          </ul>
+      </div
 
-      <div class = "Art-portfolio">
-        <h3>Art Porfolio</h3>
-        <ul>
-          <li> Project 1 </li>
-          <li> Project 2 </li>
-          <li> Project 3 </li>
-          <li> Project 4 </li>
-          <li> Project 5 </li>
-          <li> Project 6 </li>
-          <li> Project 7 </li>
-          <li> Project 8 </li>
-          <li> Project 9 </li>
-          <li> Project 10 </li>
-        <ul>
+      <div class = "cs-portfolio">
+        <h3>Coding Porfolio</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin tempus luctus nulla vel placerat. Suspendisse imperdiet elit at dui ultrices,
+          pulvinar elementum ligula vulputate. Sed mattis condimentum hendrerit. 
+        </p>
+        <div class ="photos">
+          <ul>
+            <li> Project 1 </li>  //Portfolio Website & link to github 
+            <li> Project 2 </li>  //Minecraft mod & link to github
+            <li> Project 3 </li>  //Make app & link to github
+          </ul>
+        </div>
       </div>
 
-      <div class = "Contact-page">
-          <h3>Contact Form</h3>  //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form
+      <div class = "art-portfolio">
+        <h3>Art Porfolio</h3>
+        <p>       //short artist statement & connection to coding.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.   
+          Proin tempus luctus nulla vel placerat. Suspendisse imperdiet elit at dui ultrices,
+          pulvinar elementum ligula vulputate. Sed mattis condimentum hendrerit. 
+        </p>
+        <div class ="photos">
+          <ul>
+            <li> Project 1 </li>
+            <li> Project 2 </li>
+            <li> Project 3 </li>
+            <li> Project 4 </li>
+            <li> Project 5 </li>
+            <li> Project 6 </li>
+            <li> Project 7 </li>
+            <li> Project 8 </li>
+            <li> Project 9 </li>
+            <li> Project 10 </li>
+          <ul>
+        </div>
+      </div>
+
+      <div class = "contact-page">
+          <h3>Get In Touch</h3>  //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
           <form action="/action_page.php">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -83,7 +140,9 @@
             <label for="email">Email</label>
             <input type="text" id="email" name="email_address" placeholder="Your email address..">
             
-            <label for="subject">Subject</label>
+            //and input for subject
+            
+            <label for="subject">Text</label>
             <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
             
             <input type="submit" value="Submit">
@@ -92,11 +151,10 @@
 
     </div>
 
-
   </body>
 
   <footer>
-    <p>Emmanuelle Esters </p>
-  </footer>
+    <p>© 2019 Emmanuelle Esters. Inspired by Brittany Chiang.</p> //link to her website
+  </footer
 
 </html>
