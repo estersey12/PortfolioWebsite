@@ -11,6 +11,7 @@
         <title>Emmanuelle Esters</title>
 
         <link href="css/site.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
 
@@ -20,17 +21,14 @@
         <a href="#about-me">About</a>
         <a href="#course_work">Course Work</a>
         <a href="#CS-portfolio">Computer Science</a>
-        <a href="#Art-portfolio">Visual Art</a>
         <a href="#Contact-page">Contact</a>
         <a href="#Resume-page">Resume</a>
     </div>
     
-    <div class="social_links"> //add links & icons & make static on left side
-      <ul>
-        <li>Github</li>
-        <li>LinkedIn</li>
-        <li>Instagram</li>
-      </ul>
+    <div class="icon_bar"> //add links & icons & make static on left side
+      	<a href="#" class="github"><i class="fa fa-github"></i></a>
+  	<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  	<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
     </div>
     
     <div class = "content">
@@ -94,34 +92,52 @@
           pulvinar elementum ligula vulputate. Sed mattis condimentum hendrerit. 
         </p>
         <div class ="photos">
+/* -- commented out to test responsive photos
           <ul>
             <li> Project 1 </li>  //Portfolio Website & link to github 
             <li> Project 2 </li>  //Minecraft mod & link to github
             <li> Project 3 </li>  //Make app & link to github
+	    <li> Project 4 </li>  //
+	    <li> Project 5 </li>  //
           </ul>
-        </div>
-      </div>
-
-      <div class = "art-portfolio">
-        <h3>Art Porfolio</h3>
-        <p>       //short artist statement & connection to coding.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.   
-          Proin tempus luctus nulla vel placerat. Suspendisse imperdiet elit at dui ultrices,
-          pulvinar elementum ligula vulputate. Sed mattis condimentum hendrerit. 
-        </p>
-        <div class ="photos">
-          <ul>
-            <li> Project 1 </li>
-            <li> Project 2 </li>
-            <li> Project 3 </li>
-            <li> Project 4 </li>
-            <li> Project 5 </li>
-            <li> Project 6 </li>
-            <li> Project 7 </li>
-            <li> Project 8 </li>
-            <li> Project 9 </li>
-            <li> Project 10 </li>
-          <ul>
+*/
+		<div class = "row">
+			<div class="column">
+				<div class="content">	//change to fit projects
+					<img src="mountains.jpg" alt="Mountains" style="width:100%">
+     					<h3>My Work</h3>
+      					<p>Lorem ipsum..</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content">
+					<img src="mountains.jpg" alt="Mountains" style="width:100%">
+     					<h3>My Work</h3>
+      					<p>Lorem ipsum..</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content">
+					<img src="mountains.jpg" alt="Mountains" style="width:100%">
+     					<h3>My Work</h3>
+      					<p>Lorem ipsum..</p>
+				</div>
+			</div>
+      			<div class="column">
+				<div class="content">
+					<img src="mountains.jpg" alt="Mountains" style="width:100%">
+     					<h3>My Work</h3>
+      					<p>Lorem ipsum..</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content">
+					<img src="mountains.jpg" alt="Mountains" style="width:100%">
+     					<h3>My Work</h3>
+      					<p>Lorem ipsum..</p>
+				</div>
+			</div>
+		</div>
         </div>
       </div>
 
@@ -148,6 +164,11 @@
             <input type="submit" value="Submit">
           </form>
       </div>
+
+	<div class = "resume-page">
+		//resume
+		//button leads to downloadable pdf
+	</div>
 
     </div>
 
